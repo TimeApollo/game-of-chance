@@ -1,0 +1,60 @@
+#header {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap
+}
+
+button:focus {
+    outline: 0;
+}
+
+#humanInterface {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    box-sizing: border-box;
+    width: 50vw;
+    align-items: center;
+    height: 225px;
+}
+
+#userButtons {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#machineInterface {
+    display: flex;
+    flex-direction: column;
+    height: 225px;
+    box-sizing: border-box;
+    align-items: center;
+    width: 45vw;
+}
+
+#finalResults {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+#start {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+#gameResult {
+    margin-top: 1em;
+}
